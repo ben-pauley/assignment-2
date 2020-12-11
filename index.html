@@ -5,25 +5,27 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> -->
-
-
-    <title>About Me</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">    
     
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <title>About Me</title>
+
+</head>
+
+<body style="font-family: Roboto Mono;">
+    
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
         <div class="container-fluid">
 
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img src="images/animal.jpg" width="30" height="30" class="d-inline-block align-top" alt="animal muppet">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/animal.jpg" width="35" height="35" class="d-inline-block align-top" alt="animal muppet">
                     Ben Pauley
                 </a>
             </div>
@@ -48,12 +50,12 @@
         </div>
     </nav>
 
-    <div class="container" style="margin-top:30px">
-        <div class="row">
+    <section class="container" style="margin-top:30px">
+        <main class="row">
 
-            <div class="col-sm-4">
+            <section class="col-sm-5">
                 <h2>About Me</h2>
-                <img src="images/Screenshot 2020-12-11 at 12.39.24.png" alt="drawing of Ben" width="120px">
+                <img src="images/Screenshot 2020-12-11 at 12.39.24.png" alt="drawing of Ben" width="50%" class="img-responsive">
                 <p>Welcome to my website! My name's Ben and I am a student on the University of Birmingham Coding Boot Camp.</p>
                 
                 <h3>Favourite Hobbies</h3>
@@ -67,9 +69,9 @@
                 </ul>
 
                 <hr class="d-sm-none">
-            </div>
+            </section>
 
-            <div class="col-sm-8">
+            <section class="col-sm-7">
                 <h2>My Coding Experience</h2>
                 <h5>Prior Experience</h5>
                 <p>During my time at high school, we weren't taught any coding, even though I was really interested in it. For this reason, I decided to do Computer Science at A-Level. I really enjoyed it, but struggled to excel in it as there wasn't much focus on coding.</p>
@@ -78,14 +80,16 @@
                 <h5>Boot Camp</h5>
                 <p>When I discovered the Coding Boot Camp at the University of Birmingham, my passion for coding was reignited. The possibility of doing an intensive course dedicated to web development really excited me, and I was ecstatic when I found out I had secured a place from November 2020.</p>
                 <p>My experience of the Boot Camp so far has been very positive. I've really enjoyed learning the basics of HTML and CSS. I am, however, really excited to dive deep into JavaScript. I believe my passion lies largely in the logic of programming more than the presentation.</p>
-            </div>
+            </section>
 
-        </div>
-    </div>
+        </main>
+    </section>
     
-    <div class="jumbotron text-center" style="margin-bottom:0">
-        <p>Social Media</p>
-    </div>
+    <footer class="jumbotron text-center" style="margin-bottom:0">
+		<a href="https://github.com/ben-pauley" class="fa fa-github fa-3x" style="padding: 10px; color: red;"></a>
+		<a href="https://www.linkedin.com/in/benjamin-pauley-a7b2b51ba" class="fa fa-linkedin fa-3x" style="padding: 10px;"></a>
+    </footer>
 
 </body>
+
 </html>
